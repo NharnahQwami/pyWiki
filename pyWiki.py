@@ -9,4 +9,4 @@ result = wikipedia.summary(f"{x}")
 print(result)
 
 
-#still uder work... so if its not working, fix the code. :)
+#still under work... so if its not working, try fixing the code. :)
