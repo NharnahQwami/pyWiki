@@ -1,12 +1,13 @@
-#remember to pip install wikipedia b4 use
+#remember to pip install wikipedia before use
 
 import wikipedia
 
-x = input("Enter your wiki search query ")
-result = wikipedia.summary(f"{x}")
+search_query = input("Enter your wiki search query ")
+
+results = wikipedia.summary(f"{search_query}")
 #result = wikipedia.summary("search query")
 
-print(result)
+print(results)
 
 
 #still under work... so if its not working, try fixing the code. :)
